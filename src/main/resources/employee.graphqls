@@ -12,3 +12,10 @@ type Employee {
     age: Int
     address: Address
 }
+
+type Address{
+    addid: String
+    country: String
+    city: String
+    flat: String
+}
