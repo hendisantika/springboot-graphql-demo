@@ -4,5 +4,11 @@ schema {
 
 type Query {
     allEmployee: [Employee]
+}
 
+type Employee {
+    name: String
+    id: String
+    age: Int
+    address: Address
 }
